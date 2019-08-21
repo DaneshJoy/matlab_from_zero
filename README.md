@@ -38,3 +38,9 @@
 - **برنامه محاسبه BMI**
 - **دستورات (hold on / mean / function / sum / length / numel / close all / if / elseif / else / str2double / inputdlg / helpdlg / warndlg / errordlg / msgbox / beep / fprintf / sprintf)**
 
+--------------------------
+## جلسه 4
+- **خواندن و نمایش تصاویر**
+- **بهبود کیفیت تصاویر**
+- **ذخیره تصاویر**
+- **حذف نویز**
