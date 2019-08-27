@@ -17,8 +17,8 @@
 - **انواع متغیرها (integer / double / char / logical)**
 - &#x202b; **ساخت و نمایش بردارها و سیگنال ها (مقدماتی)**
 - &#x202b; **کدنویسی در فایل (script) و قواعد نام گذاری**
-
-- &#x202b; **دستورات (clear / clc / sin / cos / tan / plot / logo)**
+  
+- **دستورات (clear / clc / sin / cos / tan / plot / logo)**
 
 --------------------------
 
@@ -27,7 +27,7 @@
 - **رسم سیگنال (plot و subplot)**
 - **&#x202b;تعامل با کاربر (گرفتن ورودی از کاربر)**
 - **معرفی نویز**
-
+  
 - **دستورات (subplot / input / rand / randn / num2str / figure)**
 
 --------------------------
@@ -36,6 +36,7 @@
 - &#x202b; **رسم سیگنال ها (بر روی هم)**
 - **استفاده از تابع**
 - **برنامه محاسبه BMI**
+  
 - **دستورات (hold on / mean / function / sum / length / numel / close all / if / elseif / else / str2double / inputdlg / helpdlg / warndlg / errordlg / msgbox / beep / fprintf / sprintf)**
 
 --------------------------
@@ -44,3 +45,5 @@
 - **بهبود کیفیت تصاویر**
 - **ذخیره تصاویر**
 - **حذف نویز**
+  
+- **دستورات (imread / imshow / image / imagesc / montage / imshowpair / im2double /  mat2gray / rgb2gray / imcomplement / imreducehaze / imwrite / imhist / histeq / adapthisteq / imnoise / medfilt2 / wiener2)**
