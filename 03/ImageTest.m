@@ -25,9 +25,11 @@ montage({img1, img2, img3}, 'Size', [1,3])
 img_g1 = im2double(img2);
 img_g2 = mat2gray(img2);
 
+figure
 montage({img_g1, img_g2})
 
 % Another method (Works in Matlab versions before 2016)
-% imshowpair(img1, img2, 'montage')
+figure
+imshowpair(img1, img2, 'montage')
 
 
