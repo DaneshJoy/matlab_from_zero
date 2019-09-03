@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Matlab DSP Shahed</title>
+<link href="res/classic-slides.css" rel="stylesheet" />
+<style>
+
+
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+.step {
+    position: relative;
+    padding: 40px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+}
+.slide {
+  direction: rtl;
+  display: block;
+  width: 1024px;
+  height: 768px;
+  padding: 60px 60px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, .3);
+  border-radius: 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+  font-family:"myTahoma";
+  color: rgb(0, 13, 20);
+  font-size: 32px;
+  line-height: 1.5;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -100px;
+  width: 50%;
+}
+
+:lang(en) {font-family: "GothicB"; font-size: 100%;}
+
+.bottomContent
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  position:absolute;
+  bottom: 0;
+}
+
+t1 {color:rgb(20, 74, 117); font-size:70px}
+t2 {color:rgb(10,120,120); font-size:48px}
+
+</style>
+</head>
+<body class="impress-not-supported">
+  <!--
+      This fallback message is only visible when there is `impress-not-supported` class on body.
+  -->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+<div class="step slide" data-x="0" data-y="0">
+  <center>
+    <t2> برنامه نویسی در </t2></br> <t1><a lang=en style="color:rgb(1, 41, 75);">Matlab</a></t1>
+    <br/>
+    <img src="res/matlab_logo.png" style="width:200px;height:200px;margin-top:50px;margin-right:0px">
+    <br/>
+    <p class="bottomContent" style="color:rgb(30, 70, 110); font-size:20px;">
+      سعید محققی | دانشگاه شاهد <br/>
+      تابستان 1398</p>
+  </center>
+  <div class="notes">
+    why matlab?
+  </div>
+</div>
+<div class="step slide" data-x="1300" data-y="0" >
+  <t2>چرا <a lang=en style="color:rgb(1, 41, 75);">Matlab</a> ؟ </t2>
+  <ul>
+    <li class="substep">قابلیت های فراوان (برای کاربردهای علمی و محاسباتی)</li>
+    <li class="substep">تعداد کاربران زیاد (پشتیبانی مناسب) </li>
+    <li class="substep">فراگیر بودن در محیط های دانشگاهی (در ایران)</li>
+    <li class="substep">رایگان و نامحدود (در ایران!)</li>
+    <li class="substep">زبان برنامه نویسی ساده و سطح بالا (پیاده سازی سریع ایده ها)</li>
+    <li class="substep">و ...</li>
+  </ul>
+</div>
+<div class="step slide" data-x="1650" data-y="1170" data-rotate="90" data-scale="1.2">
+  <t2> کلیات مطالب دوره</t2>
+  <ul>
+    <li class="substep">آشنایی با محیط برنامه نویسی <a lang=en style="color:rgb(1, 41, 75);">Matlab</a> </li>
+    <li class="substep">کار با داده‌ها و رسم نمودار در <a lang=en style="color:rgb(1, 41, 75);">Matlab</a></li>
+    <li class="substep">مقدمه پردازش سیگنال در <a lang=en style="color:rgb(1, 41, 75);">Matlab</a></li>
+    <li class="substep">مقدمه پردازش تصویر در <a lang=en style="color:rgb(1, 41, 75);">Matlab</a></li>
+    <li class="substep">و ...</li>
+  </ul>
+</div>
+<div class="step slide" data-x="550" data-y="800" data-rotate="180">
+  <center>
+  <img src="res/salary.jpg" style="width:350px;height:600px;">
+  </center>
+</div>
+<div class="step slide" data-x="550" data-y="1600" data-rotate="180">
+  <t2> سلسله مراتب اجرای کدها</t2>
+  <center>
+  <img src="res/prog.png" style="width:900px;height:400px;margin-top:50px;">
+  </center>
+</div>
+<div class="step slide" data-x="-550" data-y="1165" data-scale="1.2" data-rotate="270">
+  <t2> آموزش برنامه نویسی در <a lang=en style="color:rgb(1, 41, 75);">Matlab</a> </t2>
+  <br/>
+  <br/>
+  <div class="substep">
+  <li>بهتر است به صورت عملی باشد !</li>
+  <center>
+  <img src="res/learn.png" style="width:600px;height:400px;margin-top:20px;">
+  </center>
+</div>
+</div>
+<div class="step" data-x="400" data-y="800" data-scale="4" data-rotate="360"></div>
+</div>
+
+<!-- <div id="impress-toolbar"></div> -->
+<div class="impress-progressbar"></div>
+<div class="impress-progress"></div>
+
+<script src="js/impress.js"></script>
+<script>impress().init()</script>
+</body>
+</html>
