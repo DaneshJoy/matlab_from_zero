@@ -54,4 +54,4 @@
 - ** حل چند معادله و چند متغیر**
 - **حلقه ها (for و while)**
 - **Pre-Allocation مقدار دهی متغیرها از ابتدا**
-- **دستورات (solve / root / roots / poly / ezplot / vpa / dsolve / integral / for / while)
+- **دستورات (solve / root / roots / poly / ezplot / vpa / dsolve / integral / for / while)**
