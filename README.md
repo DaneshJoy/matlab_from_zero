@@ -16,7 +16,10 @@
 - **انواع متغیرها (integer / double / char / logical)**
 - &#x202b; **ساخت و نمایش بردارها و سیگنال ها (مقدماتی)**
 - &#x202b; **کدنویسی در فایل (script) و قواعد نام گذاری**
-- **دستورات (clear / clc / sin / cos / tan / plot / logo)**
+- **دستورات**
+```
+clear / clc / sin / cos / tan / plot / logo
+```
 
 --------------------------
 ## جلسه 2
@@ -24,22 +27,30 @@
 - **رسم سیگنال (plot و subplot)**
 - **&#x202b;تعامل با کاربر (گرفتن ورودی از کاربر)**
 - **معرفی نویز**
-- **دستورات (subplot / input / rand / randn / num2str / figure)**
+- **دستورات**
+```
+subplot / input / rand / randn / num2str / figure
+```
 
 --------------------------
 ## جلسه 3
 - &#x202b; **رسم سیگنال ها (بر روی هم)**
 - **استفاده از تابع**
 - **برنامه محاسبه BMI**
-- **دستورات (hold on / mean / function / sum / length / numel / close all / if / elseif / else / str2double / inputdlg / helpdlg / warndlg / errordlg / msgbox / beep / fprintf / sprintf)**
-
+- **دستورات**
+```
+hold on / mean / function / sum / length / numel / close all / if / elseif / else / str2double / inputdlg / helpdlg / warndlg / errordlg / msgbox / beep / fprintf / sprintf
+```
 --------------------------
 ## جلسه 4
 - **خواندن و نمایش تصاویر**
 - **بهبود کیفیت تصاویر**
 - **ذخیره تصاویر**
 - **حذف نویز**
-- **دستورات (imread / imshow / image / imagesc / montage / imshowpair / im2double /  mat2gray / rgb2gray / imcomplement / imreducehaze / imwrite / imhist / histeq / adapthisteq / imnoise / medfilt2 / wiener2)**
+- **دستورات**
+```
+imread / imshow / image / imagesc / montage / imshowpair / im2double /  mat2gray / rgb2gray / imcomplement / imreducehaze / imwrite / imhist / histeq / adapthisteq / imnoise / medfilt2 / wiener2
+```
 
 --------------------------
 ## جلسه 5
@@ -47,7 +58,10 @@
 - **حل چند معادله و چند متغیر**
 - **حلقه ها (for و while)**
 - **Pre-Allocation مقدار دهی متغیرها از ابتدا**
-- **دستورات (solve / root / roots / poly / ezplot / vpa / dsolve / integral / for / while)**
+- **دستورات**
+```
+solve / root / roots / poly / ezplot / vpa / dsolve / integral / for / while
+```
 
 --------------------------
 ## جلسه 6
@@ -56,5 +70,8 @@
 - **استفاده از وب کم برای گرفتن تصویر**
 - **تشخیص اشیا با هوش مصنوعی (Deep Learning)**
 - **حذف نویز با هوش مصنوعی (Deep Learning)**
-- **دستورات (uigetfile / fullfile / vision.CascadeObjectDetector / rectangle / text / insertObjectAnnotation / webcam / preview / snapshot / questdlg / alexnet / imresize / classify / denoisingNetwork / denoiseImage / cat)**
+- **دستورات**
+```
+uigetfile / fullfile / vision.CascadeObjectDetector / rectangle / text / insertObjectAnnotation / webcam / preview / snapshot / questdlg / alexnet / imresize / classify / denoisingNetwork / denoiseImage / cat
+```
 
